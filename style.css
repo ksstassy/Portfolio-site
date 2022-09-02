@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--gradient);
+}
+:root {
+  --btncolor: rgba(89, 51, 216, 0.377);
+  --textcolor: rgba(71, 89, 255, 0.377);
+  --gradient: linear-gradient(to bottom, #fff 0%, #a6a7eebd 100%);
+}
+.hi {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.name {
+  font-size: 4.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.info {
+  font-size: 4.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+}
+.text {
+  font-size: 24px;
+}
+
+.text2 {
+  font-size: 30px;
+}
+
+.contact {
+  color: black;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--btncolor);
+  margin: 15px;
+}
+
+.btns {
+  text-align: center;
+  margin: 15px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--btncolor);
+  box-shadow: var(--box-shadow);
+  color: black;
+}
+
+.about {
+  color: black;
+  margin: 15px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--btncolor);
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background: rgba(96, 24, 124, 0.212);
+}
+
+.container {
+  text-align: center;
+
+  max-width: 600px;
+  margin: 90px auto;
+}
+
+.container2 {
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.textinfo {
+  display: flex;
+  margin: 10px 0;
+}
+
+.textinfo p {
+  margin: 10px;
+  text-align: justify;
+  background-color: var(--textcolor);
+  padding: 30px;
+  border-radius: 5px;
+  line-height: 1.5;
+}
+
+.email {
+  color: black;
+  text-decoration: none;
+}
+
+.homepage {
+  color: black;
+}
+
+footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+.row {
+  margin: 20px;
+  padding: 40px;
+  font-size: 21px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.paragraphs p {
+  margin: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: block;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+footer {
+  flex: 0 0 auto;
+  
+}
+
+@media (max-width: 500px) {
+  .name {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .hi{
+    font-size: 40px;
+  }
+
+  .text{
+    font-size: 20px;
+  }
+
+  .info{
+    font-size: 40px;
+  }
+
+  .text2{
+    font-size: 20px;
+  }
+
+  .hide{
+    display: none;
+  }
+
+}
