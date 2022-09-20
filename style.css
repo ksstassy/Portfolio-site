@@ -1,34 +1,55 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--gradient);
+  overflow-x: hidden;
+  
 }
 :root {
-  --btncolor: rgba(89, 51, 216, 0.377);
+  --btncolor: rgba(0, 0, 0, 0.376);
   --textcolor: rgba(71, 89, 255, 0.377);
-  --gradient: linear-gradient(to bottom, #fff 0%, #a6a7eebd 100%);
+  --gradient: linear-gradient(to bottom, #2c3035 0%, #ffffffbd 100%);
 }
+
+/* .navbar{
+  background-color: black !important;
+} */
+
+
+
+.fa-solid{
+  color: black;
+  font-size: 78px;
+}
+
+
 .hi {
   font-size: 50px;
   font-weight: 500;
+  color: #fff;
 }
 
 .name {
   font-size: 4.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  color: #fff;
 }
+
 .info {
   font-size: 4.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin-top: 0;
+  color: #fff;
 }
 .text {
   font-size: 24px;
+  color: #fff;
 }
 
 .text2 {
   font-size: 30px;
+  color: #fff;
 }
 
 .contact {
@@ -71,14 +92,17 @@ a {
 
 a:hover {
   text-decoration: none;
-  background: rgba(96, 24, 124, 0.212);
+  background: rgba(0, 22, 162, 0.227);
+  color: black;
 }
 
 .container {
   text-align: center;
-
-  max-width: 600px;
+/* background-color: rgba(0, 0, 0, 0.161); */
+  /* max-width: 600px; */
+  max-width: auto;
   margin: 90px auto;
+  width: 100%;
 }
 
 .container2 {
