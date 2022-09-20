@@ -47,6 +47,28 @@ body {
  
 }
 
+.textt {
+  font-size: 44px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0;
+ 
+}
+
+.mb{
+  font-weight: 300;
+}
+
+.mb1{
+  font-weight: 300;
+}
+
+
+.content{
+  padding: 0 80px;
+}
+
 .text2 {
   font-size: 30px;
   
@@ -106,8 +128,14 @@ a:hover {
   text-align: center;
 /* background-color: rgba(0, 0, 0, 0.161); */
   /* max-width: 600px; */
-  max-width: auto;
+
   margin: 90px auto;
+  width: 100%;
+}
+
+.containerc {
+  text-align: center;
+  margin: 25px auto;
   width: 100%;
 }
 
