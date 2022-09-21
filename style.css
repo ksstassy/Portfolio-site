@@ -10,9 +10,20 @@ body {
   --gradient: linear-gradient(to bottom, #2c303500 0%, #ffffffbd 100%);
 }
 
-/* .navbar{
-  background-color: black !important;
-} */
+
+
+.hero {
+  background: #f8eff1d3;
+  text-align: center;
+  padding: 120px 20px;
+  padding-bottom: 90px;
+}
+
+.btns1 {
+  text-align: center;
+  background: #f8eff1d3;
+  padding: 20px;
+}
 
 
 
@@ -24,7 +35,7 @@ body {
 
 .hi {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 400;
  
 }
 
@@ -80,28 +91,18 @@ body {
   
 }
 
-.contact {
-  color: black;
-  font-size: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.027);
-  padding: 10px;
-  border-radius: 5px;
-  background-color: var(--btncolor);
-  margin: 15px;
-}
 
 .btns {
   text-align: center;
   margin: 15px;
+  color: black;
 }
 
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
-  background: var(--btncolor);
-  box-shadow: var(--box-shadow);
+  background: #d6b2ca;
   color: black;
 }
 
@@ -120,7 +121,8 @@ a {
 
 a:hover {
   text-decoration: none;
-  background: rgba(0, 22, 162, 0.227);
+  background: #c2d4dee0;
+  border-radius: 5px;
   color: black;
 }
 
@@ -153,7 +155,7 @@ a:hover {
 .textinfo p {
   margin: 10px;
   text-align: justify;
-  background-color: var(--textcolor);
+  background-color: #f8eff1d3;
   padding: 30px;
   border-radius: 5px;
   line-height: 1.5;
@@ -168,9 +170,46 @@ a:hover {
   color: black;
 }
 
+
+
 footer {
-  height: 50px;
-  margin-top: -50px;
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: #f8eff1d3;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer .email-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background: #c2d4de;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #d6b2ca;
+  background: #c2d4de;
 }
 
 .row {
@@ -201,10 +240,11 @@ footer {
   margin-inline-end: 0px;
 }
 
-footer {
-  flex: 0 0 auto;
-  
+img[hidden] {
+  display: none;
 }
+
+
 
 @media (max-width: 500px) {
   .name {
@@ -233,6 +273,10 @@ footer {
   }
 
   .hide{
+    display: none;
+  }
+
+  .imgi{
     display: none;
   }
 
